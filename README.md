@@ -26,7 +26,7 @@ Note that the test has NOT been completed even in the latest version.
 
 ## Examples and Tests:
 
-- test_qeispack_prb1.f90 is a test program that demonstrates the use of a number of QEISPACK routines.
+- test_qeispack_prb1.f90 is a test program that demonstrates to calculate eigenvalues and eigenvectors.
 - now preparing...
 
 Compile:
