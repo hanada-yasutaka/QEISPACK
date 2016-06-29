@@ -11,12 +11,18 @@ Note that the test has NOT been completed even in the latest version.
 ## Usage
 
    gfortrun -c qeispack.f90
+   
+## Related Multiple precision Programs
+
+- [mpmath](http://mpmath.org/)
+- [MPACK](http://mplapack.sourceforge.net/)
 
 ## Comparison
    
-   the evaluation for the energy gap (tunnel splitting) in the Hamiltonian system by using 
-   double precision Lapack (numpy), Mathematica (100 digits precision) and qeispack (quadruple precision).
-   ![comparison with lapack mathematica qeispack diagonalization routine](figs/compare-res.png)
+- the evaluation for the energy gap (tunnel splitting) in a Hamiltonian system by using double precision Lapack (numpy), Mathematica (100 digits precision) and qeispack (quadruple precision).
+![comparison with lapack mathematica qeispack diagonalization routine](figs/compare-res.png)
+- the eigenvalues for an unitary matrix 
+![comparison for unitary matrxi](figs/unitary_eigenvalues.png)
 
 ## Examples and Tests:
 
