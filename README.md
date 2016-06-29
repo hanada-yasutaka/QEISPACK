@@ -26,7 +26,7 @@ Note that the test has NOT been completed even in the latest version.
 
 ## Examples and Tests:
 
-- test_qeispack_prb1.f90 is a test program that calculates eigenvalues and eigenvectors.
+- test_qeispack_prb1.f90 is a test program that calculates eigenvalues and eigenvectors of a complex general matrix.
 - now preparing...
 
 Compile:
