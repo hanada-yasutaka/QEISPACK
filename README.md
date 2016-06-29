@@ -35,7 +35,7 @@ Compile:
 
 ## Licence 
 
-This program is istribued under GNU Lesser General Public License (GNU LGPL)
+This program is distribued under GNU Lesser General Public License (GNU LGPL)
 
 ## Support
 
