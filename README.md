@@ -1,13 +1,12 @@
 # QEISPACK
 
-QEISPACK is a modified [fortrun90 eispack library](https://people.sc.fsu.edu/~jburkardt/f_src/eispack/eispack.html) which calculates the eigenvalues and eigenvectors of a matrix in quadruple precision.
-
+QEISPACK is a modified [fortrun90 eispack library](https://people.sc.fsu.edu/~jburkardt/f_src/eispack/eispack.html) which calculates the eigenvalues and eigenvectors of a matrix in the quadruple precision.
 Note that the test has NOT been completed even in the latest version.
 
 
 ## Requirement
 
-- gfortrun (>=4.7) (or ifort a support quadruple precision)
+- gfortrun (>=4.7) (or the other fortrun compiler which supports quadruple precision computing)
 
 ## Usage
 
@@ -17,8 +16,7 @@ Note that the test has NOT been completed even in the latest version.
 
    now preparing...
    
+## Support
 
-## Support 
-
-This work has been supported by JSPS KAKENHI Grants No. 16K17767
+Author has been supported by JSPS KAKENHI Grants No. 16K17767
       
