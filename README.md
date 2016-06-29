@@ -10,8 +10,8 @@ Note that the test has NOT been completed even in the latest version.
 
 ## Usage
 
-   gfortrun -c qeispack.f90
-   
+    gfortrun -c qeispack.f90
+
 ## Related Multiple precision Programs
 
 - [mpmath](http://mpmath.org/)
@@ -26,8 +26,13 @@ Note that the test has NOT been completed even in the latest version.
 
 ## Examples and Tests:
 
-   now preparing...
-   
+- test_qeispack_prb1.f90 is a test program that demonstrates the use of a number of QEISPACK routines.
+- now preparing...
+
+Compile:
+    
+    gfortrun -o test qeispack.o test_qeispack_prb1.f90
+
 ## Support
 
 Author has been supported by JSPS KAKENHI Grants No. 16K17767
