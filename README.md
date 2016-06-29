@@ -33,6 +33,10 @@ Compile:
     
     gfortrun -o test qeispack.o test_qeispack_prb1.f90
 
+## Licence 
+
+This program is istribued under GNU Lesser General Public License (GNU LGPL)
+
 ## Support
 
 Author has been supported by JSPS KAKENHI Grants No. 16K17767
