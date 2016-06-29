@@ -1,0 +1,42 @@
+概要
+==========================
+qeispackはeispack(lapackの前身)を4倍精度で書き直したライブラリーです．
+私が利用する対格化のルーチン以外はtestしていないので使用する際にはtestしてください．
+
+文責：花田康高(2013/12/17)
+
+
+以下qeispackの使い方を簡単にご説明します．
+環境
+==========================
+・gcc 4.7以上
+・ifort の新しいもの
+のどちらかが必要です．
+
+ちなみに
+    gccとは gnu compiler collectionの略称なので，
+    gccをinstall すると gfortranともれなくついてきます．
+
+コンパイラーはgfortranであると仮定して説明しますが，
+ifortをお使いの場合はgfortranをifortに置き換えてください
+
+qeispack.f90 の Compile
+==========================
+gfortran -c qeispack.f90
+    を実行すると
+qeispack.o
+    ファイルが生成されます．
+    利便性の為だけですが、私は更に
+ar qc libqeispack.a qeispack.o
+    を実行してアーカイブファイルを作っています．
+
+test faileのCompile
+==========================
+
+gfortran -o test test_qeispack_prb1.f90 -L./ -lqeispack
+    を実行し
+./test
+    でtestが実行されます．
+    もしアーカイブファイルを作りたくない場合は
+gfortran -o test qeispack.o test_qeispack_prb1.f90
+    で実行ファイルが生成されます．
