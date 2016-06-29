@@ -12,12 +12,12 @@ Note that the test has NOT been completed even in the latest version.
 
     gfortrun -c qeispack.f90
 
-## Related Multiple precision Programs
+## Related multiple precision programs
 
 - [mpmath](http://mpmath.org/)
 - [MPACK](http://mplapack.sourceforge.net/)
 
-## Comparison
+## Demo
    
 - the evaluation for the energy gap (tunnel splitting) in a Hamiltonian system by using double precision Lapack (numpy), Mathematica (100 digits precision) and qeispack (quadruple precision).
 ![comparison with lapack mathematica qeispack diagonalization routine](figs/compare-res.png)
